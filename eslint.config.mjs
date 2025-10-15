@@ -16,7 +16,9 @@ const eslintConfig = [
             '@typescript-eslint/no-explicit-any': 'off',
             '@next/next/no-img-element': 'off',
             '@next/next/no-sync-scripts': 'off',
-            'react-hooks/exhaustive-deps': 'off'
+            'react-hooks/exhaustive-deps': 'off',
+            // 👇 добавь эту строку
+            'react/display-name': 'off'
         }
     }
 ];
